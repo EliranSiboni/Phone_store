@@ -1,10 +1,10 @@
 <?php 
 class Phone
 {
-	public $name;	
-	public $image;		
-	public $color;
-	public $price;
+	protected $name;	
+	protected $image;		
+	protected $color;
+	protected $price;
 
 	function __construct($name,$image,$color,$price)
 	{

@@ -3,7 +3,7 @@ require 'phone.php';
 
 class Iphone extends Phone
 {
-	public $company;
+	private $company;
 	
 	function __construct($name,$image,$color,$price,$company)
 	{

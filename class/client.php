@@ -1,10 +1,10 @@
 <?php 
 class Client
 {
-	public $password;
-	public $name;
-	public $phone;
-	public $address;
+	private $password;
+	private $name;
+	private $phone;
+	private $address;
 	
 	public function __construct($password,$name,$phone,$address)
 	{
